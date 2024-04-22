@@ -1,0 +1,144 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Flask_CRUD_BDModulo4",
+    "collectionId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+    "dateExported": "2024-04-22T18:24:27.011Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d0b2e824-8b7b-4bd9-93a2-011080fda418",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/contactos/v1",
+            "url": "http://127.0.0.1:5000/contactos/v1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-22T16:07:50.634Z",
+            "modified": "2024-04-22T16:07:54.401Z",
+            "headers": []
+        },
+        {
+            "_id": "388b3ad8-5439-4828-aec7-9c45df818d23",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/contactos/v1/list",
+            "url": "http://127.0.0.1:5000/contactos/v1/list",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-22T16:17:31.379Z",
+            "modified": "2024-04-22T16:17:36.890Z",
+            "headers": []
+        },
+        {
+            "_id": "4fd3d6ad-ae66-4231-8e6f-eee1f711ad10",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/contactos/v1/insert",
+            "url": "http://127.0.0.1:5000/contactos/v1/insert",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-22T16:22:09.303Z",
+            "modified": "2024-04-22T16:33:11.170Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 300,\n  \"fullname\": \"Alessox3\",\n  \"email\": \"alesso_mx@yoque.se\",\n  \"phone\": \"777\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ffc245ab-60ee-46dc-b2b6-c76dc53e33c5",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/contactos/v1/insertxd",
+            "url": "http://127.0.0.1:5000/contactos/v1/insertxd",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-04-22T16:40:37.540Z",
+            "modified": "2024-04-22T17:16:06.702Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"fullname\": \"Alesso\",\n  \"email\": \"alesso@yoque.se\",\n  \"phone\": \"777\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e490587a-7167-4081-b923-b763b8a1287c",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/predios/v1",
+            "url": "http://127.0.0.1:5000/predios/v1",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-04-22T17:31:00.532Z",
+            "modified": "2024-04-22T17:31:03.776Z",
+            "headers": []
+        },
+        {
+            "_id": "538c725b-0334-4577-890b-71ecb9484b7d",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/predios/v1/list",
+            "url": "http://127.0.0.1:5000/predios/v1/list",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-04-22T17:33:05.093Z",
+            "modified": "2024-04-22T17:33:19.023Z",
+            "headers": []
+        },
+        {
+            "_id": "c5432c83-c373-438d-a94e-2c6aa3bd7788",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/predios/v1/insert",
+            "url": "http://127.0.0.1:5000/predios/v1/insert",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-04-22T17:34:07.153Z",
+            "modified": "2024-04-22T17:38:59.869Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_tipo_predio\": \"0000111\",\n  \"descripcion\": \"nose\",\n  \"ruc\": \"123456789\",\n  \"telefono\": \"999888777\",\n  \"correo\": \"abc@gmail.com\",\n  \"direccion\": \"por ahi\",\n  \"idubigeo\": \"whats?\",\n  \"id_persona\": \"1230000\",\n  \"url_imagen\": \"::::::::::\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3c83cbc6-1e03-4ac0-8e7b-5077b9bed052",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/predios/v1/update",
+            "url": "http://127.0.0.1:5000/predios/v1/update",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-04-22T17:39:53.883Z",
+            "modified": "2024-04-22T18:12:00.859Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_predio\": 52,\n  \"telefono\": \"777\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7dfe7efd-f51e-4daf-8118-a71831a9ed17",
+            "colId": "6f98c815-2620-4f63-95be-add0e3dc8be5",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/predios/v1/delete",
+            "url": "http://127.0.0.1:5000/predios/v1/delete",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-04-22T18:12:54.557Z",
+            "modified": "2024-04-22T18:15:20.697Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_predio\": 30\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "5fhweBXYe-EHp8MLDKBpaBnqoBdC_AKlTcsvnU9Pf3a2vnWcxdjHegTR26z1x6ZTlaQLU4kARuDZOzr4QrBSOw"
+}
